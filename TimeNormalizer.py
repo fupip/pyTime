@@ -161,8 +161,8 @@ if __name__ == "__main__":
     # text = u"晚上继续给老大吃药，双金10ml，日3次，头孢克肟半片，日2次。"
     # text = u"提醒我明天不用早上起了"
     # text = u"早上5点半：懒猪，该跑步了"
-    text =u"每月周三下午5点提醒我开会"
-    text=u"12月第二个周五"
+    text = u"每月周三下午5点提醒我开会"
+    text = u"12月第二个周五"
     normalizer = TimeNormalizer()
     tunits = normalizer.parse(text)
     print normalizer.target
